@@ -39,7 +39,7 @@ def fillCorner(myTurtle, corner):
         myTurtle.end_fill
     
     if corner==2:
-        myTurtle.goto,(50,0)
+        myTurtle.goto(50,0)
         myTurtle.begin_fill()
         drawSquare(myTurtle, 50)
         myTurtle.end_fill()
