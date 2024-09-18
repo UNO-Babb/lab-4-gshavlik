@@ -68,11 +68,13 @@ def squaresInSquares(myTurtle, num):
     for i in range(num):
         drawSquare(myTurtle, size)
         size = size + 20
+        myTurtle.up()
         myTurtle.right(180)
         myTurtle.forward(10)
         myTurtle.right(90)
         myTurtle.forward(10)
-        myturtle.right(90)
+        myTurtle.right(90)
+        myTurtle.up()
 
 def main():
     myTurtle = turtle.Turtle()
@@ -83,7 +85,7 @@ def main():
 
     #squaresInSquares(myTurtle, 5) #draws 5 concentric squares
     
-    # squaresInSquares(myTurtle, 3) #draws 3 concentric squares
+    #squaresInSquares(myTurtle, 3) #draws 3 concentric squares
 
 
 main()
